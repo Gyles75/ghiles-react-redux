@@ -15,7 +15,7 @@ let store = createStore(reducers);
 
 ReactDom.render(
   <Provider store={store}>
-    <ArticleContainer className="container" />
+    <ArticleContainer />
   </Provider>,
   document.getElementById('root')
 );
